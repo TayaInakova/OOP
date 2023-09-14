@@ -11,7 +11,7 @@ public class Main {
 
         List<Cat> cats = new ArrayList<>();
         cats.add(new Cat("Паскаль", 15));
-        cats.add(new Cat("Рафэль", 10));
+        cats.add(new Cat("Рафэль", 30));
         cats.add(new Cat("Персиваль", 20));
         cats.add(new Cat("Вольтер", 7));
         Plate plate = new Plate(50);
@@ -21,10 +21,10 @@ public class Main {
             cat.eat(plate);
             if (!cat.isSatiety()) {
                 plate.addFood(20);
-                plate.info();
                 cat.eat(plate);
                 cat.isSatiety();
             }
+            plate.info();
         }
     }
 }

@@ -21,6 +21,7 @@ public class Plate {
      */
     public void addFood(int moreFood) {
         this.food += moreFood;
+        System.out.printf("Добавили в миску %d единиц корма.\n", moreFood);
     }
 
     public void info() {

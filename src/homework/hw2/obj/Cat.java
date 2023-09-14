@@ -30,7 +30,7 @@ public class Cat {
     public void eat(Plate plate) {
         if (getAppetite() <= plate.getFood() && !satiety) {
             plate.setFood(plate.getFood() - getAppetite());
-            System.out.printf("Котик %s поел из тарелки.\n", name);
+            System.out.printf("Котик %s поел из миски.\n", name);
             satiety = true;
         } else if (getAppetite() > plate.getFood() && !satiety) System.out.println("В миске недостаточно еды!");
         else if (getAppetite() <= plate.getFood() && satiety) System.out.printf("котик %s уже сыт\n", name);
