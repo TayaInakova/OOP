@@ -12,7 +12,7 @@ public class Main {
     /**
      * Метод генерирует случайного сотрудника типа Worker или Freelancer
      *
-     * @return экземпляр типа типа Worker или Freelancer
+     * @return экземпляр типа Worker или Freelancer
      */
     public static Employee generateEmployee() {
 
@@ -39,7 +39,7 @@ public class Main {
      * Список сотрудников типа Worker и Freelancer
      *
      * @param counter количество сотрудников в списке
-     * @return массив сотрудников
+     * @return массив экземпляров типа Worker или Freelancer
      */
     public static Employee[] generateEmployees(int counter) {
 
