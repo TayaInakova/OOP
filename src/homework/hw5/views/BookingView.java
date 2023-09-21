@@ -41,7 +41,7 @@ public class BookingView implements View {
         if (reservationNo > 0) {
             System.out.printf("Бронь успешно изменена. Новый номер вашей брони: #%d\n", reservationNo);
         } else {
-            System.out.println("Не удалось изменить бронь. Попробуйте повторить операцию позже.");
+            System.out.println("Не удалось изменить бронь. Проверьте корректность введённого номера брони.");
         }
     }
 
